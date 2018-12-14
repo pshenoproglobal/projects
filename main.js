@@ -234,6 +234,17 @@ document.addEventListener('keydown', event => {
     }
 });
 
+// for mobile
+$('.btn_left').on('click', function () {
+    alert('ssss')
+    playerMove(-1);
+});
+
+
+
+
+
+
 playerReset();
 updateScore()
 update();
